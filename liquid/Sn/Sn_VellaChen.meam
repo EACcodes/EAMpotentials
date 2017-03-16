@@ -1,0 +1,14 @@
+rc=4.8
+delr=0.2
+augt1=0
+ialloy=2
+mixture_ref_t=0
+erose_form=2
+zbl(1,1) = 0
+emb_lin_neg = 0
+bkgd_dyn = 0
+attrac(1,1)=0
+repuls(1,1)=0
+nn2(1,1)=0
+Cmin(1,1,1) = 0.8
+Cmax(1,1,1) = 2.8

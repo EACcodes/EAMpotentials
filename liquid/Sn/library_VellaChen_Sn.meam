@@ -1,0 +1,8 @@
+# meam data 
+# elt        lat     z       ielement     atwt
+# alpha      b0      b1      b2           b3    alat    esub    asub
+# t0         t1              t2           t3            rozero  ibar
+
+'Sn_VellaChen' 'fcc' 12.0 50 118.710
+6.1094739 6.3334355 6.0381747 4.6922365 5.9205824 4.7936862 3.06 1.0051934
+1.0 4.5050331 6.499874 0.029277404 1.00 3

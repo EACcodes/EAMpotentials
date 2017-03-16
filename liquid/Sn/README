@@ -1,0 +1,11 @@
+The citation for the Sn MEAM potential is:
+J.R. Vella, M. Chen, F. H. Stillinger, E. A. Carter, P. G. Debenedetti, and A. Z. Panagiotopoulos, "Structural and dynamic properties of liquid tin from a new modified embedded-atom method force field", Phys. Rev. B 95, (2017) 064202. doi: https://doi.org/10.1103/PhysRevB.95.064202
+
+To use the Sn potential, one should include the following lines:
+
+pair_style meam
+pair_coeffs * * library_VellaChen_Sn.meam Sn_VellaChen Sn_VellaChen.meam Sn_VellaChen
+
+The command is a little confusing but basically the library_.meam files contain MEAM parameters for a given species. Each species is referred to by a label in the library file.  Sn_VellaChen is the model Sn described by the potential. The other .meam files contain extra information about a MEAM potential, since there are several small variations of this potential.  Users can find more information about the LAMMPS implementation of the MEAM force field here: http://lammps.sandia.gov/doc/pair_meam.html
+
+
