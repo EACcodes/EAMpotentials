@@ -1,0 +1,10 @@
+These potential files are compatible with LAMMPS (as of Dec 20008).
+
+Preferred potentials:
+We recommend using Potential B, which performs slightly better than Potential A in our tests. You must run these with "pairstyle = eam/fs" (see LAMMPS documentation for details).
+
+Potential A : This is based on Fe Potential 4 from Mendelev et al. (Philos Mag 11, 3977 (2003)) and fit to bulk, vacancy, and surface data from DFT.
+
+Potential B : This is based on the Fe potential from Ackland et al. (J Phys: Condens Mat 16, S2629 (2004)) and fit to bulk, vacancy, and surface data from DFT.
+
+(Note: These potentials were revised on February 24, 2010. If you downloaded prior versions, we strongly recommend upgrading to the latest ones.)
