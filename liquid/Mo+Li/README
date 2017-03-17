@@ -1,0 +1,17 @@
+To use this potential in LAMMPS:
+
+pair_style      meam
+pair_coeff      * * MoLi_library_VellaChen.meam Li2NN Mo_Lee MoLi_Cross_VellaChen.meam Li2NN Mo_Lee
+
+Where Li2NN refers to Li which is atom type 1 and Mo_Lee refers to Mo which is atom type 2.
+
+Note that the cross parameters for the Mo-Li interaction are newly developed by Vella/Chen.
+
+The Li-Li interaction is taken from:
+
+Z. Cui, F. Gao, Z. Cui, and J. Qu, "Developing a second nearest-neighbor modified embedded atom method interatomic potential for lithium", Model. Simul. Mater. Sci. Eng. 20, (2012) 015014. doi: 10.1088/0965-0393/20/1/015014
+
+The Mo-Mo interaction is taken from:
+
+B. Lee, M. I. Baskes, H. Kim, and Y. Cho, "Second nearest-neighbor modified embedded atom method potentials for bcc transition metals", Phys. Rev. B 64, (2001) 184102. doi: 10.1103/PhysRevB.64.184102
+
