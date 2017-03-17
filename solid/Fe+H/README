@@ -7,4 +7,10 @@ Potential A : This is based on Fe Potential 4 from Mendelev et al. (Philos Mag 1
 
 Potential B : This is based on the Fe potential from Ackland et al. (J Phys: Condens Mat 16, S2629 (2004)) and fit to bulk, vacancy, and surface data from DFT.
 
+"Bulk-only" potentials: These potentials were fit only to bulk and vacancy DFT data and are slightly better than Potentials A and B in their response to strain fields in bulk environments. However, these do not perform well at surfaces. Use at your own discretion! Also note that you must run these with "pairstyle = eam/alloy" (see LAMMPS documentation).
+
+bulkA.alloy : This is based on Fe Potential 4 from Mendelev et al. [Philos Mag 11, 3977 (2003)] and fit only to bulk and vacancy data from DFT.
+
+bulkB.alloy : This is based on the Fe potential from Ackland et al. [J Phys: Condens Mat 16, S2629 (2004)] and fit only to bulk and vacancy data from DFT. 
+
 (Note: These potentials were revised on February 24, 2010. If you downloaded prior versions, we strongly recommend upgrading to the latest ones.)
